@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		9ORl68UlKuUBOK6D/zuG+Ya40+k=
+		CpmyHqx66cCeQFjNcPxb0QEmhPc=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -28,9 +28,33 @@
 		<data>
 		42vvfmtF7/9LGHgAQ/lWEfxCRsk=
 		</data>
+		<key>flutter_assets/assets/img/earth.png</key>
+		<data>
+		TsRdVbz6+VxChUcUe+bdtL/4Ve8=
+		</data>
+		<key>flutter_assets/assets/img/ic_distance.png</key>
+		<data>
+		uDZfRbFt3X95ysCRaoOZLOP6SKI=
+		</data>
+		<key>flutter_assets/assets/img/ic_gravity.png</key>
+		<data>
+		hygO5pAO9qMuhaIKnqwuKeon6EE=
+		</data>
 		<key>flutter_assets/assets/img/mars.png</key>
 		<data>
 		tccgiHQLg5fW3Pg72IWmYj9kaeU=
+		</data>
+		<key>flutter_assets/assets/img/mercury.png</key>
+		<data>
+		dHH9owivSFeXOIgCR33uVsV5U+Q=
+		</data>
+		<key>flutter_assets/assets/img/moon.png</key>
+		<data>
+		5zk5CRKQmJ7LPLMgWcEut+AeQZY=
+		</data>
+		<key>flutter_assets/assets/img/neptune.png</key>
+		<data>
+		MHNlKAuHz3WYNWhbgC3wy9UCXsg=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<data>
@@ -42,7 +66,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		/B2xt4j6d9QAoGw46xtP30lOpy4=
+		U83oZghUakKmeb1hbvmTQCU5Uq4=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -59,11 +83,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9ORl68UlKuUBOK6D/zuG+Ya40+k=
+			CpmyHqx66cCeQFjNcPxb0QEmhPc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Upc3hMRnEPFayQAnVAijX3s9PZqBTNvkuHzuOiSJd8Q=
+			qfgnXFxshvGIYRQGprpoJiSgfV9/vJCg7bAG+ShbMl8=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -110,6 +134,39 @@
 			6w0A/GZJ2E/Pw0mwriHqXOfSOZUQi6/mgc1Y75PUWNo=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/img/earth.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TsRdVbz6+VxChUcUe+bdtL/4Ve8=
+			</data>
+			<key>hash2</key>
+			<data>
+			MxgDCkiidQGrCDKdqPi2U4nt9pWGotfpZZf4kNQNhqM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/img/ic_distance.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uDZfRbFt3X95ysCRaoOZLOP6SKI=
+			</data>
+			<key>hash2</key>
+			<data>
+			WYy6PEHHY9813KNZHjREtQrMM533R5OK4fGaWH9oS4w=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/img/ic_gravity.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hygO5pAO9qMuhaIKnqwuKeon6EE=
+			</data>
+			<key>hash2</key>
+			<data>
+			P1ZQXkxnNBJDiUQrBMdZJ+XPQ33DwS6g5OaHl+kNMFk=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/img/mars.png</key>
 		<dict>
 			<key>hash</key>
@@ -119,6 +176,39 @@
 			<key>hash2</key>
 			<data>
 			lJi+PfatKRovfWJgpOWG8tdqtGNzFGrijdf6/L7i0Ec=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/img/mercury.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dHH9owivSFeXOIgCR33uVsV5U+Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			gLAHxKLt8Vhrbs0wk6YoBBLfqonqDOYQVJwKsy87BF4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/img/moon.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5zk5CRKQmJ7LPLMgWcEut+AeQZY=
+			</data>
+			<key>hash2</key>
+			<data>
+			1/1jeXWw6NBGJqNCPQ7qCFVJVIIvGaUUEQ5R+43AQ+Y=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/img/neptune.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MHNlKAuHz3WYNWhbgC3wy9UCXsg=
+			</data>
+			<key>hash2</key>
+			<data>
+			DSNBPOsBmevaVsZDNV89z33+eyBtqTgA5DGGL3U9yd0=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
@@ -147,11 +237,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/B2xt4j6d9QAoGw46xtP30lOpy4=
+			U83oZghUakKmeb1hbvmTQCU5Uq4=
 			</data>
 			<key>hash2</key>
 			<data>
-			WOcycEpZtn78M4czgwDlDlQC/zj9ObARE5AIKs1LWso=
+			8KoNIbV8isX2xewIEuyv9obPMk1QGVdmzyZQU/Dl3Ys=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
