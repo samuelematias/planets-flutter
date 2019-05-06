@@ -1,24 +1,83 @@
 import 'package:flutter/material.dart';
+import 'package:planets_flutter/model/planets.dart';
+import 'package:planets_flutter/ui/text_style.dart';
 
 
 class PlanetRow extends StatelessWidget{
 
+  final Planet planet;
+
+  PlanetRow(this.planet);
+
   @override
   Widget build(BuildContext context){
+
+    Widget _planetValue({String value, String image}) {
+      return new Row(
+          children: <Widget>[
+            new Image.asset(image, height: 12.0),
+            new Container(width: 8.0),
+            new Text(planet.gravity, style: Style.regularTextStyle),
+          ]
+      );
+    }
+
+    final planetCardContent = new Container(
+      margin: new EdgeInsets.fromLTRB(76.0, 16.0, 16.0, 16.0),
+      constraints: new BoxConstraints.expand(),
+      child: new Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          new Container(height: 4.0),
+          new Text(planet.name,
+            style: Style.headerTextStyle,
+          ),
+          new Container(height: 10.0),
+          new Text(planet.location,
+              style: Style.subHeaderTextStyle
+
+          ),
+          new Container(
+              margin: new EdgeInsets.symmetric(vertical: 8.0),
+              height: 2.0,
+              width: 18.0,
+              color: new Color(0xff00c6ff)
+          ),
+          new Row(
+            children: <Widget>[
+              new Expanded(
+                  child: _planetValue(
+                      value: planet.distance,
+                      image: 'assets/img/ic_distance.png')
+
+              ),
+              new Expanded(
+                  child: _planetValue(
+                      value: planet.gravity,
+                      image: 'assets/img/ic_gravity.png')
+              )
+            ],
+          ),
+        ],
+      ),
+    );
+
     final planetThumbnail = new Container(
       margin: new EdgeInsets.symmetric(
         vertical: 16.0
       ),
       alignment: FractionalOffset.centerLeft,
       child: new Image(
-        image: new AssetImage("assets/img/mars.png"),
+        image: new AssetImage(planet.image),
         height: 92.0,
         width: 92.0,
       ),
     );
+
     
     final planetCard = new Container(
-      height: 124.0,
+      child: planetCardContent,
+      height: 154.0,
       margin: new EdgeInsets.only(left: 46.0),
       decoration: new BoxDecoration(
         color: new Color(0xFF333366),
@@ -33,6 +92,8 @@ class PlanetRow extends StatelessWidget{
         ]
       ),
     );
+
+
     return new Container(
       margin: const EdgeInsets.symmetric(
         vertical: 16.0,
