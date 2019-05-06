@@ -1,4 +1,4 @@
-#Mon May 06 11:14:58 BRT 2019
-base.0=/Users/samuelmataraso/workspace/AndroidStudioProjects/FlutterProjects/planets_flutter/build/app/intermediates/transforms/dexMerger/debug/0
+#Mon May 06 11:55:00 BRT 2019
+base.0=/Users/samuelmataraso/workspace/my_stuffs/flutter/planets-flutter/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

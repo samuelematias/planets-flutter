@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/samuelmataraso/workspace/AndroidStudioProjects/FlutterProjects/planets_flutter/build/app/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "/Users/samuelmataraso/workspace/my_stuffs/flutter/planets-flutter/build/app/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/samuelmataraso/workspace/AndroidStudioProjects/FlutterProjects/planets_flutter/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/samuelmataraso/workspace/my_stuffs/flutter/planets-flutter/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
