@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue May 07 10:53:03 BRT 2019
+#Tue May 07 12:21:09 BRT 2019
 17.baseType=DIRECTORY
 4.path=flutter_assets/assets/img/mercury.png
 8.set=ASSET
