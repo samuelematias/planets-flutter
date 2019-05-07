@@ -1,0 +1,7 @@
+*.pbxproj -text
+#github will get for for your linguist-static , just those with a linguist-detectable true flag.
+*.dart linguist-detectable=true
+*.h linguist-detectable=false
+*.m linguist-detectable=false
+*.mm linguist-detectable=false
+*.M linguist-detectable=false
